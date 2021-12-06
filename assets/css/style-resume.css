@@ -12,7 +12,6 @@
     --color-light: #fff;
     --color-dark: #111;
     --color-accent: #1DA1F2;
-    --color-dark-accent: #00008b;
 
     --fw-light: lighter;
     --fw-bold: bold;
@@ -80,9 +79,27 @@ body {
     line-height: 1.4em;
 }
 
+.profiletext h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact-info {
+    padding-top: 40px;
+;
+}
+
+.title {
+    color: var(--color-light);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;    
+}
+
 .container .right-side {
     position: relative;
-    background: var(--color-dark-accent);
+    background: var(--color-white);
     padding: 40px;
 }
 

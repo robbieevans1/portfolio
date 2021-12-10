@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fira Code', monospace;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root {
-    --ff-primary: 'Fira Code', monospace;
     
     --color-light: #fff;
     --color-dark: #111;
@@ -132,9 +132,90 @@ body {
     text-decoration: none;
 }
 
+.contact-info.education li {
+    margin-bottom: 15px;
+}
+
+.contact-info.education h5 {
+    color: var(--color-dark-accent);
+    font-weight: 500;
+}
+
+.contact-info.education h4:nth-child(2) {
+    color: var(--color-light);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.contact-info.education h4 {
+    color: var(--color-light);
+    font-weight: 300;
+    font-size: 15px;
+}
+
 .container .right-side {
     position: relative;
     background: var(--color-white);
     padding: 40px;
 }
 
+.about {
+    margin-bottom: 50px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+
+.title2 {
+    color: var(--color-dark-accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: var(--color-dark);
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0
+}
+
+.about .box .year_company {
+    min-width: 150px;
+}
+
+.about .box .year_company h5 {
+    text-transform: uppercase;
+    color: #848c90;
+}
+
+.about .box .text h4 {
+    text-transform: uppercase;
+    color: var(--color-accent);
+    font-size: 16px;
+}
+
+.skills  h2{
+    color: var(--color-dark-accent);
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills h4 {
+    text-transform: uppercase;
+    color: var(--color-accent);
+}
+
+.skills > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 0;
+}

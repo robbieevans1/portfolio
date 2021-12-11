@@ -393,6 +393,9 @@ header {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    object-position: center;
+    object-fit: cover;
+    height: 100%;
 }
 
 .portfolio__item:focus {
